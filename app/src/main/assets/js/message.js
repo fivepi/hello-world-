@@ -5,8 +5,7 @@ var myHost = null,myUserToken = null,myCompanyId = null,myClientType = null;
 //重连状态&基本重连次数&当前重连次数&最大重连次数&最小重连时间
 var doReconnect = true,baseCount = 10,reconnectCount = 0,maxCount = 50,reconnectTime = 10000;
 
-//链接
-function connect(host,userToken,companyId,clientType){
+//连接
     myHost = host;
     myUserToken = userToken;
     myCompanyId = companyId;
