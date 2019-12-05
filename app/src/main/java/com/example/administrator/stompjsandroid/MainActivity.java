@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                String url = "javascript:connect('http://newh5.ly9900.com/message/access','33333333333:12345655555','24','3')"; //调用js方法
+                String url = "javascript:connect('http://newh5.ly9900.com/message/access','33333333333:12345655555','24','3')"; //调用js connect方法
                 mWebView.loadUrl(url);
             }
         },1000);
